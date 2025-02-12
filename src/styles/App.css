@@ -1,4 +1,4 @@
-/* Estilização geral do app */
+
 body {
   font-family: 'Arial', sans-serif;
   background-color: #f4f4f9;
@@ -6,9 +6,9 @@ body {
   padding: 0;
 }
 
-/* Estilo para a Navbar */
+
 nav {
-  background-color: #ff4d4d;  /* Cor de fundo vermelha */
+  background-color: #ff4d4d;  
   padding: 15px 30px;
   display: flex;
   justify-content: space-between;
@@ -16,7 +16,7 @@ nav {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo para os links */
+
 nav a {
   color: white;
   text-decoration: none;
@@ -25,26 +25,26 @@ nav a {
   transition: color 0.3s ease;
 }
 
-/* Efeito hover nos links */
+
 nav a:hover {
-  color: #ffd700; /* Dourado quando o mouse passa por cima */
+  color: #ffd700; 
 }
 
-/* Estilo para o botão de checkout */
+
 nav a.checkout-btn {
-  background-color: #28a745;  /* Verde */
+  background-color: #28a745;  
   padding: 8px 16px;
   border-radius: 5px;
   font-weight: bold;
 }
 
 nav a.checkout-btn:hover {
-  background-color: #218838;  /* Verde mais escuro ao passar o mouse */
+  background-color: #218838;  
 }
 
-/* Estilo para o contador do carrinho */
+
 nav a .cart-count {
-  background-color: #dc3545;  /* Vermelho */
+  background-color: #dc3545;  
   color: white;
   font-size: 12px;
   padding: 2px 6px;
@@ -55,25 +55,25 @@ nav a .cart-count {
 }
 
 
-/* Estilização para centralizar o texto */
+
 .welcome-container {
   text-align: center;
-  margin-top: 50px;  /* Espaçamento do topo */
-  color: #333;  /* Cor do texto */
+  margin-top: 50px;  
+  color: #333; 
 }
 
 .welcome-container h1 {
-  font-size: 2.5rem;  /* Tamanho maior para o título */
-  margin-bottom: 10px;  /* Espaço entre o título e o parágrafo */
+  font-size: 2.5rem;  
+  margin-bottom: 10px;  
 }
 
 .welcome-container p {
-  font-size: 1.2rem;  /* Tamanho do texto do parágrafo */
-  color: #555;  /* Cor levemente cinza para o parágrafo */
+  font-size: 1.2rem;  
+  color: #555;  
 }
 
 
-/* Container dos produtos */
+
 .product-container {
   display: flex;
   flex-wrap: wrap;
@@ -82,7 +82,7 @@ nav a .cart-count {
   padding: 20px;
 }
 
-/* Estilização dos cards */
+
 .product-card {
   background-color: #fff;
   border-radius: 12px;
@@ -93,28 +93,28 @@ nav a .cart-count {
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-/* Efeito de hover nos cards */
+
 .product-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/* Imagem dos produtos */
+
 .product-image {
-  width: 150px;           /* Define a largura da imagem */
-  height: 150px;          /* Define a altura da imagem */
-  object-fit: contain;    /* Mantém a proporção da imagem sem cortar */
+  width: 150px;           
+  height: 150px;          
+  object-fit: contain;    
   margin-bottom: 15px;    
   border-radius: 8px;
   background-color: #f0f0f0;
 
-  display: block;         /* Faz a imagem se comportar como bloco */
-  margin-left: auto;      /* Centraliza horizontalmente */
-  margin-right: auto;     /* Centraliza horizontalmente */
+  display: block;         
+  margin-left: auto;      
+  margin-right: auto;     
 }
 
 
-/* Título do produto */
+
 .product-title {
   font-size: 18px;
   font-weight: bold;
@@ -122,14 +122,14 @@ nav a .cart-count {
   color: #333;
 }
 
-/* Preço do produto */
+
 .product-price {
   font-size: 16px;
   color: #666;
   margin-bottom: 15px;
 }
 
-/* Botões */
+
 button {
   background-color: #4CAF50;
   color: white;
@@ -145,7 +145,7 @@ button:hover {
   background-color: #45a049;
 }
 
-/* Input de quantidade */
+
 input[type="number"] {
   width: 50px;
   padding: 5px;
